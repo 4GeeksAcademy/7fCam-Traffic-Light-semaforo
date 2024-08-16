@@ -1,12 +1,45 @@
+.base {
+    height:6rem;
+    width:0.8rem;
+    background-color: #000;
+}
+.head {
+    height:4rem;
+    width:7rem;
+    background-color: #000;
+}
+.top {
+    background-color: red;
+    height: 33.3%;
+    width: 85%;
+    /* box-shadow: 0 0 40px 20px  #fff; */
+}
+.onn {
+    box-shadow: 0 0 20px 20px  #fff;
+}
+.center {
+    background-color: orangered;
+    height: 33.3%;
+    width: 85%;
+    /* box-shadow: 0 0 40px 40px  #fff; */
 
-/* 
-
-    You can write your own styles here...
+}
+.bottom {
+    background-color: green;
+    height: 33.3%;
+    width: 85%;
+    /* box-shadow: 0 0 40px 40px  #fff; */
     
+}
+.boton {
+    /* background-color: blueviolet; */
+    height: 3rem;
+    width: 5rem;
     
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
+}
+.extra {
+    background-color: blueviolet;
+    height: 25%;
+    width: 80%;
     
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+}
